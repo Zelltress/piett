@@ -52,3 +52,28 @@ def parallelogram(x, y, a, b, c, d):
     turtle.right(c)
     turtle.forward(b)
     turtle.right(d)
+
+def rhomb(x, y, a):
+
+    '''
+    Function, drawing rhomb
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a rhomb
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.right(30)
+    turtle.right(60)
+    turtle.forward(a)
+    turtle.right(60)
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.forward(a)
+    turtle.right(60)
+    turtle.forward(a)
+    turtle.right(60)
+    turtle.left(30)
