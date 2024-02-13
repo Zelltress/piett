@@ -81,7 +81,7 @@ def parallelogram(x, y, a, b, c, d):
     turtle.end_fill()
 
 
-def rhomb (x, y, a):
+def rhomb_for_men(x, y, a):
 
     turtle.up()
     turtle.setposition(x, y)
