@@ -144,3 +144,19 @@ def triangle_pr_1(x, y, a, b):
     turtle.forward(b)
     turtle.right(45)
 
+def triangle_pr_2(x, y, a, b):
+
+    '''
+     Function, drawing rectangular triangle
+    '''
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.right(135)
+    turtle.forward(b)
+    turtle.right(135)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+
