@@ -264,4 +264,26 @@ def triangle_pr_5(x, y, a, b):
     turtle.forward(b)
     turtle.right(90)
 
+def rectangle(x, y, a, b):
+    '''
+    Function, drawing rectangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a rectangle
+    :param b: side length of b rectangle
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(b)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(b)
+    turtle.right(90)
+
 
