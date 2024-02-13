@@ -336,3 +336,181 @@ def rectangle_for_table(x, y, a, b):
     turtle.right(90)
     turtle.forward(b)
     turtle.right(90)
+
+def paint_dog():
+    turtle.fillcolor('DarkGoldenrod2')
+    turtle.begin_fill()
+    rhomb(425, 287, 30)
+    turtle.end_fill()
+
+    turtle.fillcolor('gold2')
+    turtle.begin_fill()
+    parallelogram(290,260, 120, 60, 60, 120)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_1(410, 208, 30)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_1(320, 208, 30)
+    turtle.end_fill()
+
+    turtle.fillcolor('plum2')
+    turtle.begin_fill()
+    square(290, 290, 30)
+    turtle.end_fill()
+
+    turtle.fillcolor('lavender')
+    turtle.begin_fill()
+    triangle4(295, 333, 50, 90, 79)
+    turtle.end_fill()
+
+    turtle.fillcolor('orange')
+    turtle.begin_fill()
+    rhomb(295, 333, 24)
+    turtle.end_fill()
+
+    circle(270, 302, 5)
+
+def paint_home():
+    turtle.fillcolor('mistyrose')
+    turtle.begin_fill()
+    square(250, -270, 90)
+    turtle.end_fill()
+
+    turtle.fillcolor('orange')
+    turtle.begin_fill()
+    rectangle(320, -270, 135, 90)
+    turtle.end_fill()
+
+    turtle.fillcolor('blue')
+    turtle.begin_fill()
+    parallelogram(285, -208, 150, 70, 60, 120)
+    turtle.end_fill()
+
+    turtle.fillcolor('MediumOrchid1')
+    turtle.begin_fill()
+    triangle_rvs_3(285, -208, 70)
+    turtle.end_fill()
+
+    circle(285, -263, 14)
+
+    turtle.fillcolor('orange')
+    turtle.begin_fill()
+    rectangle(270, -305, 25, 55)
+    turtle.end_fill()
+
+    turtle.fillcolor('lightcyan2')
+    turtle.begin_fill()
+    square(400, -290, 35)
+    turtle.end_fill()
+
+    turtle.fillcolor('lightcyan2')
+    turtle.begin_fill()
+    square(345, -290, 35)
+    turtle.end_fill()
+
+    turtle.fillcolor('orange')
+    turtle.begin_fill()
+    rectangle(303, -315, 6, 6)
+    turtle.end_fill()
+
+    turtle.fillcolor('mediumpurple1')
+    turtle.begin_fill()
+    rectangle(325, -188, 15, 40)
+    turtle.end_fill()
+
+    turtle.fillcolor('pink')
+    turtle.begin_fill()
+    triangle_pr_5(345, -290, 24, 17)
+    turtle.end_fill()
+
+    turtle.fillcolor('pink')
+    turtle.begin_fill()
+    triangle_pr_5(400, -290, 24, 17)
+    turtle.end_fill()
+
+    turtle.color('black')
+    turtle.up()
+    turtle.setposition(400, -307)
+    turtle.down()
+    turtle.forward(35)
+    turtle.up()
+    turtle.setposition(345, -307)
+    turtle.down()
+    turtle.forward(35)
+
+    turtle.up()
+    turtle.setposition(417, -290)
+    turtle.right(90)
+    turtle.down()
+    turtle.forward(35)
+    turtle.up()
+    turtle.setposition(362, -290)
+    turtle.down()
+    turtle.forward(35)
+    turtle.left(90)
+
+    turtle.up()
+    turtle.setposition(285, -235)
+    turtle.right(90)
+    turtle.down()
+    turtle.forward(28)
+    turtle.left(90)
+    turtle.up()
+    turtle.setposition(271, -250)
+    turtle.down()
+    turtle.forward(28)
+    turtle.up()
+
+def paint_Gosha():
+    turtle.fillcolor('lightslateblue')
+    turtle.begin_fill()  #For backcolor.
+    triangle(250, -40, 100, 141)
+    turtle.end_fill()  # For backcolor.
+
+    turtle.fillcolor('pink')
+    turtle.begin_fill()
+    rhomb(420, 25, 35)
+    turtle.end_fill()
+
+    turtle.fillcolor('darkslateblue')
+    turtle.begin_fill()
+    triangle2(350, -40, 100, 141)
+    turtle.end_fill()
+
+    circle(300, 13, 10)
+    circle(385, 13, 10)
+
+    turtle.fillcolor('plum1')
+    turtle.begin_fill()
+    rectangle(310, 100, 70, 40)
+    turtle.end_fill()
+
+    turtle.fillcolor('plum1')
+    turtle.begin_fill()
+    triangle_rvs_1(280, -40, 30)
+    turtle.end_fill()
+
+    turtle.fillcolor('slateblue')
+    turtle.begin_fill()
+    triangle_rvs_1(370, -40, 30)
+    turtle.end_fill()
+
+    turtle.fillcolor('purple4')
+    turtle.begin_fill()
+    square(330, 90, 10)
+    turtle.end_fill()
+
+    turtle.fillcolor('blue')
+    turtle.begin_fill()
+    parallelogram(355, 100, 25, 15, 120, 60)
+    turtle.end_fill()
+
+    turtle.fillcolor('thistle1')
+    turtle.begin_fill()
+    rectangle(280, 70, 40, 5)
+    turtle.end_fill()
