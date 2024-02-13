@@ -1,5 +1,5 @@
 #Case-study #1
-#Developers: Cherkashina D., Ivanova A.,  .
+#Developers: Cherkashina D., Ivanova A., Gulakova Y.
 
 import turtle
 
@@ -181,6 +181,15 @@ def triangle_rvs_1(x, y, a):
     turtle.right(120)
 
 def triangle_rvs_2(x, y, a):
+
+     '''
+    Function, drawing equilateral triangle
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: the size of the triangle side
+    :return: None
+    '''
+
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -378,7 +387,7 @@ def paint_dog():
 
     turtle.fillcolor('lavender')
     turtle.begin_fill()
-    triangle4(295, 333, 50, 90, 79)
+    triangle_pr_4(295, 333, 50, 90, 79)
     turtle.end_fill()
 
     turtle.fillcolor('orange')
@@ -492,7 +501,7 @@ def paint_Gosha():
 
     turtle.fillcolor('darkslateblue')
     turtle.begin_fill()
-    triangle2(350, -40, 100, 141)
+    triangle_pr_3(350, -40, 100, 141)
     turtle.end_fill()
 
     circle(300, 13, 10)
@@ -705,7 +714,7 @@ def table():
 
     turtle.fillcolor('#ff8c00')
     turtle.begin_fill()
-    rectangle_2(-100, -220, 200, 20)
+    rectangle_for_table(-100, -220, 200, 20)
     turtle.end_fill()
 
     turtle.fillcolor('#000000')
@@ -747,6 +756,8 @@ def table():
     turtle.begin_fill()
     triangle_rvs_3(-70, -200, 5)
     turtle.end_fill()
+
+def main ():
 
 #draw rabbit
     turtle.fillcolor('SteelBlue')
@@ -911,5 +922,18 @@ def table():
     turtle.begin_fill()
     triangle_pr_1(-510, -324, 5, 7)
     turtle.end_fill()
+
+    olen()
+    men()
+    table()
+
+    paint_Gosha()
+    paint_home()
+    paint_dog()
+
+    turtle.done()
+
+if __name__ == '__main__':
+    main()
 
 
