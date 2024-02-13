@@ -100,3 +100,25 @@ def rhomb_1(x, y, a):
     turtle.forward(a)
     turtle.right(60)
 
+def triangle_rv(x, y, a, b):
+
+    '''
+    Function, drawing equilateral triangle
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: size of equal sides
+    :param b: the size of the third side
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.right(125)
+    turtle.forward(a)
+    turtle.right(145)
+    turtle.forward(b)
+    turtle.right(145)
+    turtle.forward(a)
+    turtle.left(55)
+
