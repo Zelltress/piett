@@ -296,4 +296,16 @@ def circle(x, y, a):
     turtle.circle(a)
     turtle.end_fill()
 
+def triangle_rvs_3(x, y, a):
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.right(60)
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.left(60)
 
