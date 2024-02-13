@@ -340,7 +340,7 @@ def rectangle_for_table(x, y, a, b):
 def paint_dog():
     turtle.fillcolor('DarkGoldenrod2')
     turtle.begin_fill()
-    rhomb(425, 287, 30)
+    rhomb_for_dog(425, 287, 30)
     turtle.end_fill()
 
     turtle.fillcolor('gold2')
@@ -370,7 +370,7 @@ def paint_dog():
 
     turtle.fillcolor('orange')
     turtle.begin_fill()
-    rhomb(295, 333, 24)
+    rhomb_for_dog(295, 333, 24)
     turtle.end_fill()
 
     circle(270, 302, 5)
@@ -474,7 +474,7 @@ def paint_Gosha():
 
     turtle.fillcolor('pink')
     turtle.begin_fill()
-    rhomb(420, 25, 35)
+    rhomb_for_dog(420, 25, 35)
     turtle.end_fill()
 
     turtle.fillcolor('darkslateblue')
@@ -633,7 +633,7 @@ def men():
 
     turtle.fillcolor('#ff8c00')
     turtle.begin_fill()
-    rhomb(0, 210, 20)
+    rhomb_for_men(0, 210, 20)
     turtle.end_fill()
 
     turtle.left(58)
