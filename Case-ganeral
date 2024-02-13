@@ -180,3 +180,24 @@ def triangle_rvs_1(x, y, a):
     turtle.forward(a)
     turtle.right(120)
 
+def triangle(x, y, a, b):
+
+    '''
+    Function, drawing rectangular triangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a triangle
+    :param b: side length of b triangle
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.forward(a)
+    turtle.left(90)
+    turtle.forward(a)
+    turtle.left(135)
+    turtle.forward(b)
+    turtle.left(135)
+
