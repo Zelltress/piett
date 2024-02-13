@@ -160,3 +160,23 @@ def triangle_pr_2(x, y, a, b):
     turtle.right(90)
     turtle.forward(a)
 
+def triangle_rvs_1(x, y, a):
+
+    '''
+    Function, drawing equilateral triangle
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: the size of the triangle side
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.forward(a)
+    turtle.right(120)
+
