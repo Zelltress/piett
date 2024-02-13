@@ -201,3 +201,67 @@ def triangle(x, y, a, b):
     turtle.forward(b)
     turtle.left(135)
 
+def triangle4(x, y, a, b, c):
+    '''
+    Function, drawing rectangular triangle.
+    :param x: lower left corner coordinate x
+    :param y: lower left corner coordinate y
+    :param a: side length of a triangle
+    :param b: side length of b triangle
+    :param c: side length of c triangle
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.right(60)
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.forward(b)    #Hypotenuse.
+    turtle.right(147)
+    turtle.forward(c)
+    turtle.right(33)
+
+def triangle2(x, y, a, b):
+    '''
+    Function, drawing rectangular triangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a triangle
+    :param b: side length of b triangle
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.left(90)
+    turtle.forward(a)
+    turtle.right(135)
+    turtle.forward(b)
+    turtle.right(135)
+    turtle.forward(a)
+    turtle.left(180)
+
+def triangle_pr_5(x, y, a, b):
+    '''
+    Function, drawing rectangular triangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a triangle
+    :param b: side length of b triangle
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.forward(b)
+    turtle.right(135)
+    turtle.forward(a)
+    turtle.right(135)
+    turtle.forward(b)
+    turtle.right(90)
+
+
