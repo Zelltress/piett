@@ -286,4 +286,14 @@ def rectangle(x, y, a, b):
     turtle.forward(b)
     turtle.right(90)
 
+def circle(x, y, a):
+    turtle.color('black')
+    turtle.fillcolor('LightBlue')
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.circle(a)
+    turtle.end_fill()
+
 
