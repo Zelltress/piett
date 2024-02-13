@@ -323,7 +323,7 @@ def rhomb_for_men(x, y, a):
     turtle.forward(a)
     turtle.right(120)
 
-def rectangle_2(x, y, a, b):
+def rectangle_for_table(x, y, a, b):
 
     turtle.up()
     turtle.setposition(x, y)
