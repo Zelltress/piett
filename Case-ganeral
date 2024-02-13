@@ -323,3 +323,16 @@ def rhomb_for_men(x, y, a):
     turtle.forward(a)
     turtle.right(120)
 
+def rectangle_2(x, y, a, b):
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(b)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(b)
+    turtle.right(90)
