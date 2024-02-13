@@ -78,7 +78,7 @@ def rhomb(x, y, a):
     turtle.right(60)
     turtle.left(30)
 
-def rhomb_1(x, y, a):
+def rhomb_for_dog(x, y, a):
     '''
     Function, drawing rhomb.
     :param x: upper left corner coordinate x
@@ -308,4 +308,18 @@ def triangle_rvs_3(x, y, a):
     turtle.forward(a)
     turtle.right(120)
     turtle.left(60)
+
+def rhomb_for_men(x, y, a):
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.forward(a)
+    turtle.right(60)
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.forward(a)
+    turtle.right(60)
+    turtle.forward(a)
+    turtle.right(120)
 
