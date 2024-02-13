@@ -514,3 +514,224 @@ def paint_Gosha():
     turtle.begin_fill()
     rectangle(280, 70, 40, 5)
     turtle.end_fill()
+
+def olen():
+    turtle.fillcolor('#FDF5E6')
+    turtle.begin_fill()
+    square(-100, 90, 200)
+    turtle.end_fill()
+
+    turtle.right(180)
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    parallelogram(0, 0, 50, 70, 45, 135)
+    turtle.end_fill()
+
+    turtle.left(180)
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    parallelogram(49, 49, 50, 70, 135, 45)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_1(0, 0, 100)
+    turtle.end_fill()
+
+    turtle.fillcolor('#030119')
+    turtle.begin_fill()
+    triangle_rvs_2(0, 0,75)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_3(100, 0,50)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_1(-100, 0,100)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_3(-100, 0,50)
+    turtle.end_fill()
+
+    turtle.fillcolor('#030119')
+    turtle.begin_fill()
+    triangle_rvs_2(100, 50,58)
+    turtle.end_fill()
+
+    turtle.fillcolor('#030119')
+    turtle.begin_fill()
+    triangle_rvs_2(-100, 50,58)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_1(-37, -63,75)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    parallelogram(69, 139, 30, 70, 135, 45)
+    turtle.end_fill()
+
+    turtle.right(180)
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    parallelogram(-20, 90, 30, 70, 45, 135)
+    turtle.end_fill()
+
+    turtle.right(15)
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_3(40, 110, 30)
+    turtle.end_fill()
+
+    turtle.left(15)
+    turtle.left(15)
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_3(-40, 110, 30)
+    turtle.end_fill()
+
+    turtle.right(15)
+    turtle.left(180)
+'''
+The man is probably a representative of a mafia group
+'''
+
+def men():
+    turtle.fillcolor('#FDF5E6')
+    turtle.begin_fill()
+    square(-25, 280, 50)
+    turtle.end_fill()
+
+    turtle.fillcolor('#FDF5E6')
+    turtle.begin_fill()
+    square(-5, 230, 10)
+    turtle.end_fill()
+
+    turtle.fillcolor('#000000')
+    turtle.begin_fill()
+    rectangle(-50, 220, 100, 50)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_1(-5, 220, 10)
+    turtle.end_fill()
+
+    turtle.right(58)
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    rhomb(0, 210, 20)
+    turtle.end_fill()
+
+    turtle.left(58)
+
+    turtle.fillcolor('#000000')
+    turtle.begin_fill()
+    rectangle(-50, 300, 100, 20)
+    turtle.end_fill()
+
+    turtle.fillcolor('#000000')
+    turtle.begin_fill()
+    rectangle(-27, 370, 55, 70)
+    turtle.end_fill()
+
+    turtle.right(180)
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    parallelogram(-5, 270, 5, 15, 45, 135)
+    turtle.end_fill()
+
+    turtle.left(180)
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    parallelogram(15, 281, 5, 15, 135, 45)
+    turtle.end_fill()
+
+    turtle.fillcolor('#000000')
+    turtle.begin_fill()
+    square(10, 260, 10)
+    turtle.end_fill()
+
+    turtle.fillcolor('#000000')
+    turtle.begin_fill()
+    square(-20, 260, 10)
+    turtle.end_fill()
+
+'''
+Creating a computer desk with decorative elements
+'''
+def table():
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    parallelogram(0, -240, 50, 70, 45, 135)
+    turtle.end_fill()
+
+    turtle.right(180)
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    parallelogram(-50, -289, 50, 70, 135, 45)
+    turtle.end_fill()
+
+    turtle.left(180)
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    rectangle_2(-100, -220, 200, 20)
+    turtle.end_fill()
+
+    turtle.fillcolor('#000000')
+    turtle.begin_fill()
+    rectangle(30, -210, 30, 10)
+    turtle.end_fill()
+
+    turtle.fillcolor('#000000')
+    turtle.begin_fill()
+    rectangle(40, -200, 10, 10)
+    turtle.end_fill()
+
+    turtle.fillcolor('#000000')
+    turtle.begin_fill()
+    rectangle(5, -160, 80, 40)
+    turtle.end_fill()
+
+    turtle.fillcolor('#000000')
+    turtle.begin_fill()
+    rectangle(-50, -200, 10, 20)
+    turtle.end_fill()
+
+    turtle.fillcolor('#000000')
+    turtle.begin_fill()
+    rectangle(-48, -192, 5, 8)
+    turtle.end_fill()
+
+    turtle.fillcolor('#FDF5E6')
+    turtle.begin_fill()
+    square(-80, -205, 15)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_3(-75, -200, 5)
+    turtle.end_fill()
+
+    turtle.fillcolor('#ff8c00')
+    turtle.begin_fill()
+    triangle_rvs_3(-70, -200, 5)
+    turtle.end_fill()
+
