@@ -180,6 +180,19 @@ def triangle_rvs_1(x, y, a):
     turtle.forward(a)
     turtle.right(120)
 
+def triangle_rvs_2(x, y, a):
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.right(60)
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.forward(a)
+    turtle.right(120)
+    turtle.left(60)
+
 def triangle(x, y, a, b):
 
     '''
